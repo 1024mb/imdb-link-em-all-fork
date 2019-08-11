@@ -1,6 +1,6 @@
 // ==UserScript==
-// @name           IMDb: Link 'em all!
-// @namespace      https://greasyfork.org/en/users/8981-buzz
+// @name           IMDb: Link 'em all! (Fork)
+// @namespace      https://github.com/1024mb/imdb-link-em-all
 // @description    Adds all kinds of links to IMDb, customizable!
 // @author         buzz
 // @require        https://code.jquery.com/jquery-2.2.0.min.js
@@ -15,7 +15,7 @@
 // @grant          GM_setValue
 // @grant          GM_xmlhttpRequest
 // @require        https://greasemonkey.github.io/gm4-polyfill/gm4-polyfill.js
-// @resource       style https://raw.githubusercontent.com/buzz/imdb-link-em-all/master/style.css
+// @resource       style https://raw.githubusercontent.com/1024mb/imdb-link-em-all/master/style.css
 // @connect        *
 // @noframes
 // ==/UserScript==
