@@ -70,22 +70,22 @@ const sites = [
   // general
   {
     google: [
-      'Google',
+      ' Google',
       'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAB00lEQVQ4y42T3ysEURTH90XZ9eT/kDYRLS8oP98ohuKBIvFC8eJNIQ8U2c3GvvhtbEh+JT8SL8rvFosnKTH7o1Vrmdmd+bp3dmbtj9E69W3mds/5nHPuPVenizNJkrJEUbQSPREJih6JJgAYdX8Z2TQQJxuSGIWTJHqt4GPqIPE8AvY5eNsa4KooAFdqgrelHp9L0/KeAjmKgaiZRe4N3mYGXHGOpnw9HdGVTER6VjN7mmpkR1d5PvxTZgg3lxAc1/DbLPA0ViH08hzfkZFmt9K/4OUY3FW54ErySNCVVvNa52GhgCe6CJ3mgF83IDDbjv8aiXVSgCBXcJCG4F4KJPdWjFNRvz9BveyXCuB/AfuGMMC1mRTQPR8LeKSLj5MMePbSsXY9/GfJfSvfMmB481sF3OuUCcP53RDK2ErksTW44G4Tgp2vIkoGwxUcO0MqYJwOkZEu+JCA2u1OZC9Ww8QyGL2axtm7g8DuMOlgUTFjReGAD622ACQpDCUjkKkOknyV759uMApES8zqCN58kprdHP2A9HQ85UrImS48bKBhtwemZUaupm6nC7ZbOwLBSO+H5JMa/wr1aiVJ7t6cEBz3sIx0wuiQ0GtSdE8PLNJzlP0AcUb9Jl4kdUgAAAAASUVORK5CYII=',
       'https://www.google.com/search?q={{IMDB_TITLE}}+{{IMDB_YEAR}}'
     ],
     googleimages: [
-      'Google Images',
+      ' Google Images',
       'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAB00lEQVQ4y42T3ysEURTH90XZ9eT/kDYRLS8oP98ohuKBIvFC8eJNIQ8U2c3GvvhtbEh+JT8SL8rvFosnKTH7o1Vrmdmd+bp3dmbtj9E69W3mds/5nHPuPVenizNJkrJEUbQSPREJih6JJgAYdX8Z2TQQJxuSGIWTJHqt4GPqIPE8AvY5eNsa4KooAFdqgrelHp9L0/KeAjmKgaiZRe4N3mYGXHGOpnw9HdGVTER6VjN7mmpkR1d5PvxTZgg3lxAc1/DbLPA0ViH08hzfkZFmt9K/4OUY3FW54ErySNCVVvNa52GhgCe6CJ3mgF83IDDbjv8aiXVSgCBXcJCG4F4KJPdWjFNRvz9BveyXCuB/AfuGMMC1mRTQPR8LeKSLj5MMePbSsXY9/GfJfSvfMmB481sF3OuUCcP53RDK2ErksTW44G4Tgp2vIkoGwxUcO0MqYJwOkZEu+JCA2u1OZC9Ww8QyGL2axtm7g8DuMOlgUTFjReGAD622ACQpDCUjkKkOknyV759uMApES8zqCN58kprdHP2A9HQ85UrImS48bKBhtwemZUaupm6nC7ZbOwLBSO+H5JMa/wr1aiVJ7t6cEBz3sIx0wuiQ0GtSdE8PLNJzlP0AcUb9Jl4kdUgAAAAASUVORK5CYII=',
       'https://www.google.com/search?q={{IMDB_TITLE}}+{{IMDB_YEAR}}&tbm=isch'
     ],
     bing: [
-      'Bing',
+      ' Bing',
       'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAOBAMAAADpk+DfAAAAGFBMVEVPUU5hW0ZtYkGLczSkginElRnZoxL+uQNIeozOAAAARElEQVQI12MoBwOGAhUIxQihGKBUkRuYKmYQSQcJMjCwg6hiEMVUZgCi1AwYGMMZigwYGNzLgeoYzIAaygNFQdohRgMAOIQZ19+LH9IAAAAASUVORK5CYII=',
       'https://www.bing.com/search?q={{IMDB_TITLE}}+{{IMDB_YEAR}}'
     ],
     ddg: [
-      'DuckDuckGo',
+      ' DuckDuckGo',
       'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACqUlEQVQ4y31TXUiTYRQ+m64uFpRdFRQkUZKY2nSmS8EpG1ZQ1EUYgVfSDyNCwqgIujBCKzW6MCKioDHFwCkZSf5mIBExtuncHG5+bU4zppN9m1Pc9vR+38R/PPDywnme5/y857xEm8ynkWu9xUl6r4rgySd4CwiThexWy/Q+zV4t7WRcYTL/p1gG/vNbxGPLWG+hHgM8Gjk4tYzfXlwkwUz1OZEcnRzH3Ku7cKUTxo8Spm/kY+FHh4j9e3ARXJEUG8WqJN7/7DqwGMFs/S3E/FOrmWfulMB1jOA+SZht0Ik+//ObEDSi2KWWl3Jl+0Rg+nYJONbzFpuwgGMB3ArCzP3LoosrS4GgJecZ6XCovw2hbwY4WaaFljo09QBDI1NYWo5hjpHf94URbG6AK4fgzCKEuj8h1G+EoCWnMpHRU5EF5wlCpPUFRgLAkbP1MPY5RCy30ghTSzvDJXCkS8FdPS36nbkEGlMkAoxlE8YyCHzrSwjv3/F9fF0PFkSHNIiZGDdK+PsooXEwDTlOrQRQJcGeyWZfmb9O6AbMhKUvrDJ2Ak0SxtsFe0ayiNqFAKMrFUxUKGBjDyU41yyKOAsQNhD8tTJEugjz79hor+SJqI0lJ1se6YPsEee79LCmESyHCfH5wGqI2ZrH8KiZ8IkE0zoJRlmCQGczgr1tsOWQnuyq3Vp7aUpiNDotzAfZJHo71oroHoQ9lWAo2iMulVd3IVF+6X4IWnEXhrPJ5atlCxTmMVl1CYGnVXjjK0dmrwYFg+ehHkgD1RxCsPoawIcxxbiCZsM2mhTEc/cSSxL/9RNfFxsh70xFoaUCja46vPYMiJjvYTkE7rb/4XcOua1KKXjjhy3LuNz+EXZlMqyMs+OPtCnpgCmTWszHKWJlPQvHnEYRC/MJ2Gb+f/b6WxPpu76IAAAAAElFTkSuQmCC',
       'https://duckduckgo.com/?q={{IMDB_TITLE}}+{{IMDB_YEAR}}'
     ],
@@ -100,58 +100,58 @@ const sites = [
       'https://searx.me/?q={{IMDB_TITLE}}+{{IMDB_YEAR}}'
     ],
     yt: [
-      'YouTube',
+      ' YouTube',
       'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAq0lEQVQ4y2NgGB7gmaK4GhDvAeL7QPwOiL8C8X80/BUqB1KzG4iVkA3YhEUDIbwW2YBnZBhwD9mA7+gKfl268P9DRdH/59pKuAx4h2wAhgIY+Pf50/+vS+b/f2lniq7mL1EG/Lp25f/7vIz/z1Sk8BrwDd2An6dP/H+bGPX/mZIELi+8pWogbiTDgNXIBigD8RYgvgPEb4D4ExYNH4H4NRDfBeJtQKw4TPIRADVAMY00MJoyAAAAAElFTkSuQmCC',
       'https://www.youtube.com/results?search_query={{IMDB_TITLE}}%20trailer'
     ],
     wiki_en: [
-      'Wikipedia (en)',
+      ' Wikipedia (en)',
       'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAA20lEQVQ4y62TjRGDIAyFZQpHYAgncBRHYAE3YAUWcA0WYAHHgN5HGy/Yas9a7nJKfl5eHtB1r5VzLles0+tqcQPya/EGchsgxliGYYBO8d5X5ziO235d1xrH+A8hlL7va05K6cmAgDGmLMtSZG+tbQDxSVfA3kYgSQekE6DzPDd+AW4AGAXafMUHC0zPTKNDEQnqhGmaKgvdxDl3DABdtEAcAQQA2gKotfh4jFCmC2DMyvz4KATg6z2gGyxkFDkhBNb6nF4kaGul6bwX7xRANNC2n/0v7+HWi5S6B3M1U+/DW+K0AAAAAElFTkSuQmCC',
       'https://en.wikipedia.org/w/index.php?search={{IMDB_TITLE}}'
     ],
     wiki_de: [
-      'Wikipedia (de)',
+      ' Wikipedia (de)',
       'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAA20lEQVQ4y62TjRGDIAyFZQpHYAgncBRHYAE3YAUWcA0WYAHHgN5HGy/Yas9a7nJKfl5eHtB1r5VzLles0+tqcQPya/EGchsgxliGYYBO8d5X5ziO235d1xrH+A8hlL7va05K6cmAgDGmLMtSZG+tbQDxSVfA3kYgSQekE6DzPDd+AW4AGAXafMUHC0zPTKNDEQnqhGmaKgvdxDl3DABdtEAcAQQA2gKotfh4jFCmC2DMyvz4KATg6z2gGyxkFDkhBNb6nF4kaGul6bwX7xRANNC2n/0v7+HWi5S6B3M1U+/DW+K0AAAAAElFTkSuQmCC',
       'https://de.wikipedia.org/w/index.php?search={{IMDB_TITLE}}'
     ],
     wiki_fr: [
-      'Wikipedia (fr)',
+      ' Wikipedia (fr)',
       'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAA20lEQVQ4y62TjRGDIAyFZQpHYAgncBRHYAE3YAUWcA0WYAHHgN5HGy/Yas9a7nJKfl5eHtB1r5VzLles0+tqcQPya/EGchsgxliGYYBO8d5X5ziO235d1xrH+A8hlL7va05K6cmAgDGmLMtSZG+tbQDxSVfA3kYgSQekE6DzPDd+AW4AGAXafMUHC0zPTKNDEQnqhGmaKgvdxDl3DABdtEAcAQQA2gKotfh4jFCmC2DMyvz4KATg6z2gGyxkFDkhBNb6nF4kaGul6bwX7xRANNC2n/0v7+HWi5S6B3M1U+/DW+K0AAAAAElFTkSuQmCC',
       'https://fr.wikipedia.org/w/index.php?search={{IMDB_TITLE}}'
     ],
     wiki_es: [
-      'Wikipedia (es)',
+      ' Wikipedia (es)',
       'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAA20lEQVQ4y62TjRGDIAyFZQpHYAgncBRHYAE3YAUWcA0WYAHHgN5HGy/Yas9a7nJKfl5eHtB1r5VzLles0+tqcQPya/EGchsgxliGYYBO8d5X5ziO235d1xrH+A8hlL7va05K6cmAgDGmLMtSZG+tbQDxSVfA3kYgSQekE6DzPDd+AW4AGAXafMUHC0zPTKNDEQnqhGmaKgvdxDl3DABdtEAcAQQA2gKotfh4jFCmC2DMyvz4KATg6z2gGyxkFDkhBNb6nF4kaGul6bwX7xRANNC2n/0v7+HWi5S6B3M1U+/DW+K0AAAAAElFTkSuQmCC',
       'https://es.wikipedia.org/w/index.php?search={{IMDB_TITLE}}'
     ],
     wiki_it: [
-      'Wikipedia (it)',
+      ' Wikipedia (it)',
       'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAA20lEQVQ4y62TjRGDIAyFZQpHYAgncBRHYAE3YAUWcA0WYAHHgN5HGy/Yas9a7nJKfl5eHtB1r5VzLles0+tqcQPya/EGchsgxliGYYBO8d5X5ziO235d1xrH+A8hlL7va05K6cmAgDGmLMtSZG+tbQDxSVfA3kYgSQekE6DzPDd+AW4AGAXafMUHC0zPTKNDEQnqhGmaKgvdxDl3DABdtEAcAQQA2gKotfh4jFCmC2DMyvz4KATg6z2gGyxkFDkhBNb6nF4kaGul6bwX7xRANNC2n/0v7+HWi5S6B3M1U+/DW+K0AAAAAElFTkSuQmCC',
       'https://it.wikipedia.org/w/index.php?search={{IMDB_TITLE}}'
     ],
     rt: [
-      'Rotten Tomatoes',
+      ' Rotten Tomatoes',
       'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACuUlEQVQ4y4WSy2uUZxTGf+9833wzk0kyMXRiHCVpYipGkmpSsSQqWIMrFypoU1eluyL+AbpS6Ka7dpN1obQgIggi0tJupO1CCN4iGi2EaLxkMpnMxbl8l/d9Txch8YLaZ3V4OOfhdw4H3qMT5/d4n50du83/yHmXefL7sf4Yqjf1rHZs59GPXw5+2jVz/8biOwPcteLbc5/Hg7TTLonYuEadUZEd9Z/Wkm19racTA63jwKkPEkxff2bH+jq/rqZiP7tpt/ferO+apQCnM7GlpSU+fHx3bv+RoW57YiD74Mq9vF2bU2vF5SPDe//alf41WdG9L3IJnI44L6qGXMZh4/06PfM+Tzd51Lq9u3vuNia/unRndj3g1u5tX8y1O7+NFrWXScWY7k9y8UAH47+vcHO0FcnEOfPDc1p8YTkO/+xIlkcWovGRmUcP1PNtA5mEL7Mq63Q/6o1zoyfJw6zHcCFkcrpGqWiYOpnlyz8qfDIXrO9uYabhMep6gXxDSnWrLpcd2SRDbS2gY1gx2I1xNjSEo9dKhGn3jeMpGE6EcthVlgmSCpV2UB0ezuYMKuWhVREph5CKGFyIePyRrA8LYEQIkAkXaMUCVkALEmpQCrRd9SzEBPryGgGsCCHQEKEuts1FWKYpSMVgiz5QBlch5RBb1kjNIhYEIRLwRXiJULaWujUFF7iKL8dtXq/iVTXEFFI3SEEjVYtexaUuQkUsK8awbCJE5KoqbtnqIdxGMUhCQUpBDAgE0xRCLTREqIqlZA1Fq8lHIaUw+PN8s35IARQ3b90OXAe6hFe4TRFqCGVrKBpDwYQsBj6F0P93g+vt+85vLK1/4nKuvwf4ScPBAKH2Fm4+Clj0m1SMvtDuuKd+jMLSG6+8pvlNffsrIpMFa8YKNsotRaFdCYMnFR39HYn8MqWjO6/3/wcnxm4ToFhoKQAAAABJRU5ErkJggg==',
       'https://www.rottentomatoes.com/search/?search={{IMDB_TITLE}}',
       'Sorry, no results found for'
     ],
     mc: [
-      'Metacritic',
+      ' Metacritic',
       'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACc0lEQVQ4y5WT3UtTcRyHf05KEGRblptn7szpNt3cOWdzvrQQUbPVhYIXKUgalllmiFZChBhKb4baTULe6EWghvRGFwViIRjdCJapFXqmYok3/Q9PN6YZGvXcfx6+fPh8hdgDluygSxCVISoj/hWWLbDgY/R+Kd1Xj9F8KkT7BY1vEzmwJv1dxKqJoXsl5ObmkOzwIeIt+LQwgVAhh2wOGmvzYC0d5vzsGu66Usy+xHScHhU5NZWGM3X8orenHxFzkEiRAmvpOwXoEi8fFmO0ZqBo2SRJViRZBuDLwjwb6+sAjL9+hRBmGquD8N22LWExlUhJGMmZhcvjoqK8nIH+fgBcHg+S3c7C3CcAhkee4crwM/9C2xZ8GCvC6w8SE59ARVkZv3OxoQEhDGR4vczPzgJQc7qZ1lofRFMQLNkZ6SvFaHGiahoz09O8GR/nelvblqTlUhNCGCgsKKC3+y4Wh5e2+kLQJQS6kzutAXIPF28FqqsqiRWCc3XbJXZ1dGCTZWyyjFly09l8HPTNHiYH83BlKDwZewrAx5kZQqEQQhg4X38WgMmJCdLdbrKzg1hkLwOdpaDb2RxPJuE8BSGMPH08DMBKNIqqacQZjVRXVRIKhVBVhcysAD5/gI3JPHbM9u2jCCIumfhEC8/HRrdOPxIOY05KIhAIkJ+fj8GUxs3LR2HV9McWVhPoaY8gDEmI/Qd4PzXF4tfPBINBFFXF49WINaVRc7IQli27T5oVM2MPImT5fVjtmZglN3GJDlLSFPxqkI6WYli2wJyy90+gW2FRYehWmBtNBfRdO8Hg7RJ+vMuBFfN/fOWSA3Q76LbttnfhJ4iLvMSMlMT4AAAAAElFTkSuQmCC',
       'http://www.metacritic.com/search/all/{{IMDB_TITLE}}/results'
     ],
     am: [
-      'AllMovie',
+      ' AllMovie',
       'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAuklEQVQ4y2NgoBSornr4H4SR2UAsgANjqEXW9AeJ/QkHxlCLywUfcGDcLkD3DrHeRbb1DLoByvIK3iCMbgCKWiTBJ8gGADWyAPEGKGZBM+AJQS8ANRkC8U8g/gViE/QCsiBQAzMQtwPxZSgGsZkJhcELJAPEgfgtEC8E4kVA/A4khk0tsgEnkAxIBuL/UEPeQdkp2NTi8sIFID4CxPJALAfER0FiNE8HP5DYD3BgDLW4kjLevECMa4kGAETOtCNo09TFAAAAAElFTkSuQmCC',
       'http://www.allmovie.com/search/movies/{{IMDB_TITLE}}'
     ],
     bom: [
-      'Box Office Mojo',
+      ' Box Office Mojo',
       'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAYFBMVEUbHRuKAAOSChAtLyyYICA9PzxERkOhNTVMTktUVlOqRkZdXlxmaGWzW1t8fnvBdnaKjInGhIORk5CZm5jOlZagop+xs7Dbr7Djw8PT1dHr1dfz5ufq7On58/L/+/r9//yhFN39AAABp0lEQVQ4y33Ti7KjIAwAUOPS66MC6iJgheT///ImFKd1u9NYNcXTgGTa4BlUb/9Eg5OX8dmvZq8g8fEONjOvuK1m8sbMaGhYJzOlFzBT/Mtg2/wWzYY/NFBPpU4pxMCb1eM6m7gZE/PdN3MzD2m6+fm2CXBRPoixy3zN0y4VhtSnvU+DgFEjOFmeLW9RwX4n+jPdClARXByXrNGOB97Ts8KdsE+pALDgOgsRgtK2LnJIP7sfkn9WUMq1UTlYRjeip7UcW598vz/XAKOARUAnG5Wte98o/pl2KkDgiRYtwAE83kEI2jnoHnAofh0ei6DyG3hGxghyLc06Mn0ARLWUW+DnISBlZwNeQA2wFABy7gBgEUC0cHrwd8Wra0fOBdS0gpZfoWWgQSPnAnj7JK2gA82noo6L8ilAUiVzFKDbloniEcfACqjpCXg6dwXtBYw8S/hWYYygQ10DP3mtwZ0gy6giC+MBEAXU9ATUHQIi7wgoFFDTAlyracHQdsQlQMWykzUtQOLszvHgrABOS+Ma+gi0PNurm5+A22K/As2N/wqu//D/gGv8AuMhVQ67TUDqAAAAAElFTkSuQmCC',
       'http://www.boxofficemojo.com/search/?q={{IMDB_TITLE}}'
     ],
     criticker: [
-      'Criticker',
+      ' Criticker',
       'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAYFBMVEUCL10JNWIaRG8mU3tBZIlMaYlSbo9ZdZZYfZ1mgJxxiKV1jap3jqV6lauClayInbSPorqQp7iYp7qhssSot8quuce0wM25xdPBzNrK09vT2+Ta4uvk6evr8fPz+fv+//xEFJzNAAAApklEQVQYGQXB0U6EMBRF0X3LgWaUBE3m3f//M9/UOAJTbntcKz4AAOBX3u8aVyzg0a/rb22gzGNqOYwj5rojsvWiWfM07Xt0VLhtBQCi1h8rCgAA5fFMSmQHAJheNllEz2IMPo+rISY+AcC8vaYV9vuCMeRjNESwVADIvo4hQgYA4vTTCrIAAFFXLMJf35NmqcS1nzexaDjPw2Bt3WKmghmZ7bxa/QcJoVoLeA40rAAAAABJRU5ErkJggg==',
       'http://www.criticker.com/?h={{IMDB_TITLE}}&st=all&g=Go'
     ],
@@ -161,38 +161,38 @@ const sites = [
       'https://letterboxd.com/search/films/{{IMDB_TITLE}}/'
     ],
     thetvdb: [
-      'TheTVDB.com',
+      ' TheTVDB.com',
       'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAYFBMVEUAHS4GHywOLC8TKjgdOTIjOUcxR1Y8UktEVmBFWzhCXztHYzlRZG5Raztgcn1ngj5tgItxi0B8lEN/jpSDnEmIn0aOnqSiq7OuxU3Cx8rI3FTQ1djR41Tf5Obt8vX+//xpr4P4AAAAiklEQVQY002O0RKCIBRETyJGZUZSIgrs//9lDzbqfdszs3suHPd9ngLtOC7z+D6R25Lz3AI2hX8j5weAUwLgMt9fH8B6rc7hbNPA1cEkSeq1AhSBiyohUGTBat03Jnnw8jvolCDJHpYiY1RO2qhh0HQCvWJUB2A2I7XWsr1cFaOBqK0BQZKBXuqAHySZCuu3bZjlAAAAAElFTkSuQmCC',
       'https://thetvdb.com/?string={{IMDB_TITLE}}&searchseriesid=&tab=listseries&function=Search'
     ],
     tmdb: [
-      'TMDb',
+      ' TMDb',
       'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABU0lEQVQ4y2NgGDTAzMyMiZWVVZGDg8OWjY0tG8juYGFh6QNhIL8NiDPZ2dltgOIKfn5+TCia+fj4DJmYmC4xMjJ+BnL/48NANZ+Aas8B9WiBNXNycqoDBX8hKfoH5D8B4mtAfAGKQeynaAZ9B+pVYgA6cQFMEGjyO6CgCdAbQlpaWqwwF2poaLBycXEJA+UsgWq+wtQDvTOFgZmZ+SVMAKjIilBYAdW4wtQD9d5hAJr4A+qkb0ATVQgZANSkAfMyUO8HkMAbmInAkLYmZADQe85ILrgLCoMVSAHzgoeHB6c3uLm57YFq3sLUA/XOBJmoDQpR5BAGmvwaKLkd6KJlIAxk70B2KczLoBiERaU+UMEFQmkAzYAHQBfxoThRQEBAExiQ5UAblwMNPAQMpFMgDGQfBIqBXFMASqGgxATE74CulyAr2QM1ygCTdTIwSrkHPhMCAEsOaD3NT/fGAAAAAElFTkSuQmCC',
       'https://www.themoviedb.org/search/movie?query={{IMDB_TITLE}}'
     ],
     icheckmovies: [
-      'iCheckMovies',
+      ' iCheckMovies',
       'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACvUlEQVQ4y5VTTUhUURT+7ntvnD+NkUntlaWG5ujk2PSHkqsYkNxILRqqXQUWMgtdSIuQUfuHhBYS0SKEgoagRbs2QRIatHBSh1cTUjqTGYXo+NO8effN6943PWvRog7v53LvOd853znfJWAWDocNSin+xyRJQiwWI6Szs9Ow2+3I5/Obh4ZhgANaoKIowmazgRDCDtnDflQU4J9fhsQdNE0zAbiDtW5o8KG2djcEQcDcXAozMwnoVIfkKAJhIKHEEnwL65C4M8/IX1VVUVm5A5HIRTQ1+c3MbJvXhNnZj7h7/wGS8WmcfJ/B9lUNsaZSkI6ODsOqQpa3YXj4JjweD7LZ7G/CzMNe7MLKl6940XoGxSsbiO0rQ8otQNB13eSqqjl0dZ2H1ysjxzgKrFTLiCRCXduAcuoSSpbW8KTZizkn641KCwC89KrqXThwcD8SQ3fwuuU0FmPPIbndLLoAlrgwiG8vJ9A8eg3lR1tAM2ugOgPg2bNZFWVlW1Ek2qEufkfmTQIz5/rx+eEzOFyl+HR7FOlHT1HTcxby8WOoLq9AllXMk0v8ozMk3mGIBvwj/SA2CamRx0j2DcPQKGaH7sETbEbdYDcjRM0p8cQ81qTAJ5BOp5FjVPTsD9Tf6MGWQ37Q1XUokevI5zTU3+qF6HYxgDySyQ8spgBiAnBTlHcYH5+Ay+EAKbKhLtqNvKqBrm+g4kQI3lArK7cQPDb2yhwxjxVlWY4WaOiIx6fQ3h6Cp6QYUmU5tOUMPIcD2HMlAgfLTtmoe3v7MD+fMqVsii8YDBpcA5wGb2ZV1U5Eo5fR1naEKdP+a5AU09NTGBi4isnJOJxOp6la8w0EApsAlqB0VmogsBc1NdVMyoT1Z4FV99bkzO+NqQ0WzGVOfD6fYUn5T+NAf71MlrjYmseYO42NjYY1jX8xK7uiKOQns5Rn5uMgMxgAAAAASUVORK5CYII=',
       'https://www.icheckmovies.com/search/movies/?query={{IMDB_TITLE}}',
       'Couldn\'t find the movie you were looking for?'
     ],
     episodecalendar: [
-      'TV Episode Calendar',
+      ' TV Episode Calendar',
       'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAflBMVEX99PrgMZr74/HdHZDfK5feIJHeI5PhOZ787Pb98fjoaLXhNpzmWq7iPqDui8b51uvyqtXsfr/lUqr1vd/75vP86fThM5v62+3+9/vgLpjcGI3eJpT63u/qc7r40+niPJ/0tdr3yOTnX7HparbvkcndG4/cFYz///8AAAAAAACMev7qAAAAAXRSTlMAQObYZgAAAERJREFUGNNjYCAINNAANgF1JAAVkFBTE2NSU+OFC7CrQQBcQBVdQA7CZ4YLqIuA+FwIQ4GAUU0Gbgshh8F9gN03WDwLAPC0HDHwivrOAAAAAElFTkSuQmCC',
       'https://episodecalendar.com/en/shows?q%5Bname_cont%5D={{IMDB_TITLE}}'
     ],
     moviemistakes: [
-      'Movie Mistakes',
+      ' Movie Mistakes',
       'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACO0lEQVQ4y22RS2sTURTHs3EhdCkIUlyJoHUhqEs3bv0GRRCk4CdwoVLSZNI2aTptg8iUlFa70NlIqIvmMS0znUknhaS+IfThg8SaTJpMRoKmdiad47mZjJ2xc+HPvfd/z/2dc8/1+XDk83Axm4UWqoLa5/nKIPE3NuA27jXiS9JRTRSVmz6vsb4OQ2trALZ4Xi0QX5Ig5fRTqa8PPQGYYcENOIBcrnAG1yWnv7JSfe0JEEUoOAOJVlf3Iui33QD1+4nLm5vQh4Ff7CCO03Srip+qNesmkQVtgdf7z+Fh3crQBlFsPiNrQTBxDZBO17B5pmInSCTYgf/ffwkDDXKYydQBO385mQRYXra0tFR8guc7PG/tFxfLD4aH4QrLfuzrAmQZbtn0TEZpBYMwEAgAEI2MAMRiygImeceyAH6/5ZGZYbaGehUYjwRBx5INBJTejI7CPRJki6Lan2T58C1NH3sEMDW1F+8CBKHRz3GVGxxXvS7Luf7xcXjpBASDRjORUO84PaJwuJH3/NKxMShbQWZXgUAHpqfbrFV+xwE+3JEk+vQJAPagV7quowyyDoUOOgRA01XN7gOeKXNz78+6Ls/Pw1VHhnIk8id3XLYJ8fiHx46n/Z6ZKV1wAaJRuO8AfJ6d1QbtjLg/YpjseWyy2QPg0+rXXICJCXhhXwiFtCLxKOrfb/zY3fWdwh5t20kY5ttdFyAc1tIU1ahQVLNK09tJq6pfTylK3Y9Gt16R/eRk6znG1NCrxWJF/19hVVzTzfSONgAAAABJRU5ErkJggg==',
       'http://www.moviemistakes.com/search.php?text={{IMDB_TITLE}}'
     ],
     imgur: [
-      'Imgur',
+      ' Imgur',
       'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAA8UExURSoqKmm2FIbHRmCxAT8/PTIyMSIiIicoJSsrKjIyMXzANnS8KTdEKU5yJFuQIHy0RF2iCEFWKV+CPHOeSaqlM1cAAAAKdFJOU+r///8Sh//+34hnFoC2AAAAaElEQVQY02WP2xKAIAgFqUy0xOv//2tqR6fGfQF3AIHUaWhirCLL+gNbMsjga3kLLpeSXcuoCwl7JaQhUn9X4yDyBeQV7G/gGWIDEFqGQIt28ejEMVSnbuL8ttaI94LFltWX45T9n/8AT98GJdi3gDIAAAAASUVORK5CYII=',
       'https://imgur.com/search/score?q={{IMDB_TITLE}}+{{IMDB_YEAR}}'
     ],
     wtm: [
-      'What the Movie',
+      ' What the Movie',
       'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAMFBMVEUAAwASExEdHhwnKCYwMjBAQUBPUE9qa2l/gX6anJmqrKi+wL3O0c3X2dbg4t/7/fqY0FSkAAAATElEQVQI123NIQ4AMQgAwZVNEP0y/gRfwVfwJSRJxZ0orrdq3MKd6KPiwHRza6QpIBl1UI1RuwJg7FoLgDdtAxBpdeAN85n9EP9Z8wHGNSSyvcOg2wAAAABJRU5ErkJggg==',
       'http://whatthemovie.com/search?t=movie&q={{IMDB_TITLE}}'
     ],
@@ -256,7 +256,7 @@ const sites = [
       'There are no results.'
     ],
     bluraycom: [
-      'Blu-ray.com',
+      ' Blu-ray.com',
       'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAYFBMVEVGmt1IneBKoOJMouNNpORPpeVQqOdRqulSrOpfqeNUrOpVruxXse9ZtfFdufR2uux+wfCFwe2Cx/Sby++czfCkz/Cg0/Wo1POr2Pes2vi73fXK5fnV6vno9P30+v3///8V2ZdfAAAAf0lEQVQYGQXBS07DQABAMWeYQiskPve/IYuWBUhAOnnY2wuIpKMJz+j4vS81MR/BZb+WQTjWwemchmC/Xe88VQNgbfypGTi9b8P+VU3CQKsy5GD93G3n1zQS9tvHNxcZAiykmXXi4TKfOTAFpzd0i7kUWL+fO7ZzpRJhVCoR/AMNol6wavG87wAAAABJRU5ErkJggg==',
       'http://www.blu-ray.com/movies/search.php?keyword={{IMDB_TITLE}}&yearfrom={{IMDB_YEAR}}&yearto={{IMDB_YEAR}}&submit=Search&action=search',
       'Sorry, your search didn\'t return any results.'
@@ -280,7 +280,7 @@ const sites = [
       'Nothing Found'
     ],
     xrel: [
-      'xREL',
+      ' xREL',
       'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAMFBMVEUAAAAUFBQrKys/Pz+Hh4ednZ3/lgD/ogCurq66urr/uQD/wADJycnV1dXo6Oj9/f0GGqvHAAAAdElEQVQI12P4DwUMIOLdu3dgxr+bHXPfAxnvXhowMJ9j+P9mZgvX6g3zGP4dZlIQYNjQx/BvwgZu7l0LQIwFXAwMIEYTVwF7WQJQTUMBGwNI178JCWwsEXPeM/y7zKRgeQ9k8tuTM++B7fr37t17mKX/kRkAn3VZRBtqnu4AAAAASUVORK5CYII=',
       'https://www.xrel.to/search.html?xrel_search_query=tt{{IMDB_ID}}&lang=en_US',
       'Sorry, your query did not return any results.'
@@ -292,7 +292,7 @@ const sites = [
       '<span>0 results'
     ],
     trakttv: [
-      'Trakt.tv',
+      ' Trakt.tv',
       'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABZ0lEQVQ4y32TPUvDUBSGM3TKbwiIJUhxLJ3EQTqIhFA6ODgUkSJSipQiIqWIdO7UUULp4A9wEOfi5CChgziE4uBYhPgLCvE9+l453kYDD9zknue9n3Ec60mLfhlcgxg8kZjfys5fDzpdMAb3YBfsgVMi7R32SY2bJ09BE7TBAmQ/rPv91EOf5x+i3WStqwMmlMe/xG+5B/EYhOADRAyZGLkC7jjyf3IAEpCBNp2KBERc87slX1jyM2VhgX5xIgmYcZP06Ofpmr+Fwj7lFyUbJGDm8Ij09M/ACdhHiMgPObJZRmwCWpS7lGugA+oIkSW85gS0dEAV3Cg5AEd8NyFzK6BqAkYgBLdKTsCSszAhgQp5wyaKM5KAEi9GSHmu9kOH1BgiR3lAp2TuwhD0WJzl0FUhG6wd6ptY4BKuvqZbxLGthsiom6yR2oL9P0jIADyCBthmWJ3tBvsGK7IV5IFLrjEhU37z7PpPB+SQTEVjedUAAAAASUVORK5CYII=',
       'https://trakt.tv/search/imdb?query=tt{{IMDB_ID}}',
       'We found <strong>0</strong> results for ID'
@@ -404,23 +404,29 @@ const sites = [
   // tracker
   {
     kat: [
-      'Kickass Torrents',
+      ' Kickass Torrents',
       'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACEUlEQVQ4y2NggIKkSGvx6V3RH7OTHPNgYmXZ7svnT0z4jixWkuW2oLsu5D4DOqgt8j6yc0X+fxCe2R3zZdHkxF8wPggvmJTwc+WstL8wfk6SYzlcc0ywmdCqWSn/ti3N/k8s7q4Lego3ICPOpnzTwvT/6PjRnWP/QeD96/sYcuvmpv6PCjQRgvgrw2nf+rnJ/0F44/z0/4e2dPzfv7Hp/88fX8AGXD295j9MHhknhpvHgA2oyHG+smpm3H8Q3ra89D8ucHzP1P8wdSCcGm3RAjagPMvh2rIpkf9BeN28zP+n9s/+//LpNbjG+zcO/X/76t7/rctK/sPUgXBypGkH2IDsBIt9CyeE/EfGd68fBGv+8un1f3Q5GI4M0Id4ISZIv2Fut/9/ZPzs4UWI7TeP/keXA+HpbT7//d00IIHo76YuO7nR/f+MNi84fvX8NtiAGxd3g/lr5+WhyJekWz5HSUhZsUY3pzS6/ofhm5f3gg349+/v/+/fPv3/9OHlf2T5cB/NBhQDfJyVjDsrbP/11zr8B+EFE2P///r5DWzIu9eP/i+fmfEfJleUYvyOARsI91ad01Np8x+G5/RE/F8zv/h/f40jXKwh3/yvt6OCHQMuEO6jsq6t1Px/R5kFBq7ONv7j7SgfxEAIeDvIJRYl6/1oLTb9D8OJIeq3XW1kZBlIAd6OssXh3or7XK2l9XCpAQB9e+3AkPA7JAAAAABJRU5ErkJggg==',
       'https://katcr.co/katsearch/page/1/{{IMDB_TITLE}}%20{{IMDB_YEAR}}'
     ],
     pb: [
-      'The Pirate Bay',
+      ' TPB [Películas] ',
       'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAMFBMVEUBBAAbHBonKSc+QD1QUk9cXltvcW6ChIGPkY6ho6CusK2+wL3P0c7a3Nnr7er9//yio7pYAAAAeUlEQVQI12P4DwUM/68YA4ElkLGAAQhYwAxGBgZWEEMn6upyMMMuUOk4SGoCSA0zmCHAxMD0n+FYA7MjqwFQZEPFrJUzV61rZSgwjjj///V0YYZtlomMhsLBSgz/GE0iSpQToxn+ib3///91wHmG//tAdl+5zwBzBgA4/kVfY3CNqAAAAABJRU5ErkJggg==',
-      'https://thepiratebay.org/search/{{IMDB_TITLE}}%20{{IMDB_YEAR}}/0/99/200',
+      'https://thepiratebay.org/search/tt{{IMDB_ID}}/0/5/207',
+      'No hits. Try adding an asterisk in you search phrase.'
+    ],
+    pb2: [
+      ' TPB [Series] ',
+      'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAMFBMVEUBBAAbHBonKSc+QD1QUk9cXltvcW6ChIGPkY6ho6CusK2+wL3P0c7a3Nnr7er9//yio7pYAAAAeUlEQVQI12P4DwUM/68YA4ElkLGAAQhYwAxGBgZWEEMn6upyMMMuUOk4SGoCSA0zmCHAxMD0n+FYA7MjqwFQZEPFrJUzV61rZSgwjjj///V0YYZtlomMhsLBSgz/GE0iSpQToxn+ib3///91wHmG//tAdl+5zwBzBgA4/kVfY3CNqAAAAABJRU5ErkJggg==',
+      'https://thepiratebay.org/search/tt{{IMDB_ID}}/0/5/205',
       'No hits. Try adding an asterisk in you search phrase.'
     ],
     demonoid: [
-      'Demonoid',
+      ' Demonoid',
       'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACJ0lEQVQ4y8WT60uTYRjG/Vb/QlH0sUYfjCKyliFviY03rC2Hug4QUhDFIlAsFjppqUVHtSzXac1lbVLu4HknYypt5dZpa01dX6K0/gBR8Nc7o/KlpPrUDdfDfbzgfrjurKz/aYIg8MP5jr8dlPVnnEeBHTj8IvOLC8HWkythg5zAbFfhHdHif6HlnlvFk7iO4dReQkmdhFI6hzRSXsQ1KPLQq6T+erac4HyLgC+mpftpEZWnN/F4QMPAmz30j5RIKMYfK6HJmk+TbT3OQYED+mXIdqptKMAbLaI3oiX4qpTga500qMN4YQs9z4roe66lI7SV9kA+tr61iOqVcoK6a7lzK3iju7H7tnPHmU9rp8iDXjVt3cW0OJRYu3Jo618n1fMQxCXfVsg89n4VPeFCzO0CVXUiLbcuEQwGMJlqSCbf8enjZ8w3zZQd0lJ7pZCLFgW3PSt+Ely+q6TqXAGmMzV0d/mYnPxCxlwuF2Nj40xPz+B2e3A53QwPRdmlKaC6Ybn8E22tDhLxt6Tfp4nH44yOjpJIJAiHw6RSKfx+P7FYDKezA4vFhrBts1w3mSAafcnU1IzU5CQUCjE7O0sgEJiLJyYmiERGpGErjY0Nv4oukzisV+MN3qeiohyHvYP0+Aeam82cMlTj8Xi4esOISsxbWLGZgqFuIydqV2M4q+Bk/SrJV3DcuJT9+sXs3Lfoz3KfL9myo9kcKc/h4LE1/3QrCx/Nb+wr7suzQv3uXZAAAAAASUVORK5CYII=',
       'http://www.demonoid.to/files/?category=1&subcategory=0&language=0&quality=0&seeded=0&external=2&query={{IMDB_TITLE}}%20{{IMDB_YEAR}}&uid=0&sort=S'
     ],
     hdbits: [
-      'HDBits',
+      ' HDBits',
       'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAYFBMVEVIX25NY3NTanpacIBgd4dofo9wh5d4jp+Gkp+Al6iKnaiHnq+Qo6+OpbaVqbSWrr+dr7uosLidtMahtcGju8yxucKpvMiowNKvws6uxdfEzdXT2+Th5unq8PLu9Pb5/Pv+Czd4AAAAeUlEQVQYV2XOMQ7CQAxE0e+1BUkQDQUS978dXUAoBMVjSpTld/OqsRv7Qj1kD6IJmgjYAD8Mw1J1xocWRz4VEgJUNTOO72xKJJFCem2TQmkXsKQEZQpJd7gKBJSiRAGCAp/rBzbZKRe8FSvYKnc9nmC++wluPXT7vy9af0MJGITqXwAAAABJRU5ErkJggg==',
       'https://hdbits.org/browse2.php#film/dir=null&searchtype=film&actorfilm=film&search=tt{{IMDB_ID}}',
       'Nothing here!',
@@ -461,21 +467,21 @@ const sites = [
       'did not match any documents'
     ],
     rarbg: [
-      'RARBG',
+      ' RARBG ',
       'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABp0lEQVQ4y4WTP0jDQBTGI1KEOmcODh3M4lTEKZNL9hslYyGbcJtIcChCwC2LUxARIXOcHDLfKNziFByDgwgBEZHn9y6X2tYUD3695r2X7333Jw4RbQEPnIFLMB9gBia2dgUHP0fgkf4f7+AcjNYFTsFbpRsSUpFIVomAzDRx3o6rQYFSNTSNKgriysxDFJUR+QD7fx1AgF8OgUzREc8Md+cY59hN27mYDQqEsjJkhe7tfjdoykvhOM9Nt5KLQQHBRWsCdd2icxeP04WDaLMAipNMGftlVWM52ExZUhCVlJe6P429DQKlIYwL8kXeEXawqB3z4VNANz/MyAtSmoqMwig3/xmO81Js98mgQAF7Y18a4qQwrXjmZ3cq4SrvHTyAnQEBheKYxl5EseyK27alaZj8xq3w8jKWBCpyPEGOKyiSGRd98aVRuibXjyDQ5bK87EX4JEYLgbyAwDgwiDjlglf7gX3yS47b5Rw3xOmYDX0BJyxwDFTTtKQU30CNDTO35cna5LtPSutFXsMVxjMQji06ANfgDtyCG3Boc7v25t3bHNfkNr/9Azy0EznasaqWAAAAAElFTkSuQmCC',
-      'https://rarbg.to/torrents.php?search=tt{{IMDB_ID}}',
+      'https://rarbgweb.org/torrents.php?search=tt{{IMDB_ID}}&category%5B%5D=48&category%5B%5D=17&category%5B%5D=44&category%5B%5D=45&category%5B%5D=47&category%5B%5D=50&category%5B%5D=51&category%5B%5D=52&category%5B%5D=42&category%5B%5D=46&category%5B%5D=18&category%5B%5D=41&category%5B%5D=49',
       function($dom) {
         return $dom.find('.lista2t tr').length > 1;
       }
     ],
     '1337x': [
-      '1337x',
+      ' 1337x',
       'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAB20lEQVQ4y2NgGDTgSYRG8Ks0ywsv063PP0+3vvIoSqcYJvcoWs/xVaHHiVclPhdelfndeBar34JhwAN/OaUnUTqXnyeb/X+WYvH/aYLxvcehqtL3g1WYnqVYrn5d7PX/danv/1eF7n8fhqgGYHXF/QB5jxfxhj9eAA15kWr5/3GEZu6DUDW7FzlO318VeYINeJpi3vAwTJ0JqwGPAuQZn0ZoLnuWYPz/aZIpyBWPniaZXXyR6/z/VbH3/2fZjlceRmhK4g2LhwFyuk+idd8+ARryIs36//NM+/8vC9z/A13x+4G/bCJRAfowWLnjebL5/xfpNv9f5jr9B4XLAzfhIzcsmFkIar7vLcUEdMHS56CAjDX4/yRA7v9DR+7/92xYb9y0ZBElbICHqOujALmfDz1E/j9w4Pr/wJb9/yMnHrAhQH4jXs13bTnYHzpy7bxvx/7/ARDfs2M/f8+OYytIM9SAR7dt2JRxGnDHhi0IqOgvyOb79pz/b1uzxt6xZjW8Z8/55QGQ/wBoCNCAzlvWrMwYmm9aMqvcsWW/DtMMtPn6LSsWUaAGpju2HGtB4kCx/3ftOP4BDfbHavt9B67zQM0gfAXIL0B4jd0HqPkMkD4P9Mp1oKH1gycTAgCB9OyFFDyI8gAAAABJRU5ErkJggg==',
       'https://1337x.to/search/{{IMDB_TITLE}}+{{IMDB_YEAR}}/1/',
       'No results were returned.'
     ],
     yts: [
-      'YTS',
+      ' YTS',
       'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAMFBMVEUgHiEbICIeIB0dKh8bMxwaQRwWUxgTYBYRbRINdA8Chw4BmgkJpgAAtgAAvwAAygD2IFtIAAAAm0lEQVQI1wGQAG//ACAEMQIiASIiACBlIRAhABACABaAEREAIhEQADoxIqtxi6IiAHkiELy03WEBALcCEG7d2SAQANYQIi3uwgEiANYgEivuQAIQANchACr7IgACAMoiICz3ECEBAJ1AIh/UIgIDAD2wIl+yABA2ABfaEDVBACSkAAGetQEiIntgAAIX38qZrMYgACACKM7ttxASm8omLNhBbCUAAAAASUVORK5CYII=',
       'https://yts.ag/browse-movies/{{IMDB_TITLE}}/all/all/0/latest',
       '<h2> YIFY Movies Found</h2>'
@@ -487,25 +493,25 @@ const sites = [
       'total <span class="num">0</span> torrents found'
     ],
     cinematik: [
-      'Cinematik',
+      ' Cinematik',
       'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABO0lEQVQ4y42TIZKDQBBFuQAKyQFQHACDxiIRHACDwyKpQm48kioOgMQiuQAn2FyCSV7vNjtAKtmp+kWm8/tNdw84znMNw2CKohDleb7/tmXHsywzbdsaR1dd1xLA9Ny+FR7L+wdI09REUfQRgCdJEqniAOj73pRl+RGAp+u6KwBqGIa70XXdtxVcWvi63WRAmOI4NuM4isnzvP/NgACJatq2TTRNk+x935eq9PQDoGkag6gAE08FqKgQCInqvQD0pDNgWRaJBUEgnqqqrgBtg0EyaRLXdRUwrRFHCvi9sZ/FUCiRIFPmiux3A5HMk5MBoAOAZOgMiRPPAgYYH1VxSzuA03k5oGICQoKKPRXR1vf9bvh2HHtRgfYF4CwgeEg+nGxXAFVbUdGvPvG8TGbxB8kqvVYVsXmeXyY/ABDjxk+V4DOKAAAAAElFTkSuQmCC',
       'https://cinematik.net/browse.php?cat=0&incldead=1&sort=1&type=asc&srchdtls=1&search=tt{{IMDB_ID}}',
       'Nothing found!',
       'Not logged in!'
     ],
     torrentsmd: [
-      'Torrents.Md',
+      ' Torrents.Md',
       'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACBUlEQVQ4y52ST0uUYRTFf/c+78z4b5DEKNRFQSGVOUNOIMhQtGgVLapVm1pYBhHUogjatPYDxITgN2gV1CoMopVM6srANNoYUjPpKM34PvM+t0XOLgPnbi4c7jmHcznQxiyN0l0uMA0QtSOQZHh2LMPjcoFVPSj560U6zDi1k4BA/sACx9/TIFACEGFW24kQKRkAg85oZGbkSKPe2OzN9PaRpbd8s/yZ5+j46Pjw1retzeVHy99bxLUJhisx3hKC7WGSL+VXgwtVTfRcqjelftNPi8qJdH/6mt/x2zWTGyu3y+/mzzN3OKLoDWqepbSSa8IFDRayTlwBeOtrfi3qiZ6Y2Zn4Z/xaVLLeyZ3aEGODKYrVJh+2PTNiuA4FE0yB7uDDq8V7i1cc7ql2Ki7tbi1MLVwNO+GTBhmqZhnwAZwwOVbmbiRMphTEUEUQhForp3kjTuImAI46iVny92GYYADx3m4VKSVIGiBYiJxziJMIILFERZxmjF8qEBJKCwWWm1Bs+amKbhvW2AN88GHXmUtaDl1x6HY15jcafOyPuHQoxX0HjWpMwwSLLNjZZqpZB1DRN7IrJ+NsvAGgQT3WdAPr/LZ1il8mON1ICFs9rPTVOdpV4YfsV5bcy9xlF7lZhC7xcr08VZ77Z6n2E3DqKgiDIYSmqlbaaSz5F/mHuVLuwf9u/gA7HNa+f9jlaQAAAABJRU5ErkJggg==',
       'https://torrentsmd.com/browse.php?imdb={{IMDB_ID}}'
     ],
     kinozal: [
-      'Kinozal',
+      ' Kinozal',
       'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAB+0lEQVQ4T2Owdm/wAeL/UOzDAARoYrjEwWIgwf8nzl/6/+HN/f9TF+767x/R8b+gdvH/Gzdv/P/49tb/q9dv/J+9dM9/r5C2/809K/9/fHEOKHcRbAjcAJDmn28v/v/9DoL/vj+Hhs////H2wv/vby78f/v23v8Pz8+hGOAzY9Hu/7+AGqdyc6BgmAF30vz+r5IV+X/IRvf/t9cX/meWL0R4AeYKkAtur5j4f4WMCFgziA3SfKMg5v98Yb7/02Uk/q/xdAAbALcd5gIH7yawM0EaYAaA2DeX9v0/YKL8/9LUBhQvxab0IVwAcs6kebvgkkskBcEG3Ih1/j+Tj/P/SgdzjDCZMGcX2Btw54NCGt2ATgaG/6fbSzA0g/Chk6iB+P/Vk8twSZgXVkgBaQnR/7frMzAMeHgXyQCQU548vAqXnAcMMJABT9rS/x91NgC75Iin2f9PNxDePHzqHIoXfKpbl2MYAGL/vLfr/0YtebAhR2O8/v95ewYsXtmyDDMaQRKvljWCDQBhEBsk9mJW1f+5AjxgQ457QAIUIxpLG5aCJbAlpF8P9/0/3Zj/f1OIB9iQc/3VqAkJHIiPMUMaH75yFS0WumbsABtSWLfkv41HI5g+AgwokBgoykAuBKkrqFn8/+q1c//XbNqPmhdAHCiGZ1uoM1Gci00tANqbcjckBbSEAAAAAElFTkSuQmCC',
       'http://kinozal.tv/browse.php?s={{IMDB_TITLE}}',
       'Нет активных раздач, приносим извинения.'
     ],
     hdspain: [
-      'HDSpain',
+      ' HDSpain',
       'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAYFBMVEUQEyQWHi0mKzgRQnU6P0wsTHxLTFUxWYhTXWk9Z5Fga3dRcphvd4Fhe5t/hIdwiamCi5d/lrKHmbGWnqmUpburrLGbr8ertsS2vse/x9DL09rT2+Le5Ojl5+Tr8fP4/PwJwkjrAAAArUlEQVQY012KWXLEIAxEW8Q7ZmQWDxbywP1vGTL+y+uqrlctoclZWj0fpDbUAbEWwsOkKAaXnjDx9Yo7YcNFdJUDkxBJ2TEhAsb0S4QRObCgjzFOOPpTzgZ/0/Z+d9lgFoMlYcCeAlFYiMywpYQQvPe9wle8B3Mo9b4/PRqYGc7ph90X1V6wNjdxNojzKtZarOvKpdpcJXP3FfPsHDfWND9gHK/7zrO68QE///gFOwENOGpGQOcAAAAASUVORK5CYII=',
       'https://www.hd-spain.com/browse.php?{{IMDB_TITLE}}'
     ],
@@ -538,7 +544,7 @@ const sites = [
       'You will be banned for 6 hours after your login attempts run out'
     ],
     bluebirdhd: [
-      'BlueBird',
+      ' BlueBird',
       'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAACH0lEQVQoz4VSS2tTYRD9HnNfubm9murGR21MGhXtyo0UtBtFcJG9GFy4EfwrunIlggtXii5cCILioqgo6sKmVqloTNPQkJA2N2nv+/U5SSkoaJzlfGfOd86ZoQ+fPb/7tRHopkgT8u+ijIHnVo5Mwu33y9kr13maEiEIGTsiSfefPgA7immzkfg+oWPxgjBFEWkKycDaqn8ncUzpHxNJiiV2evjEKOOyzDe7EFo9Y6PjOE4Ux2T3FyGEriqGqqBMRIdRNLAdwXl2owtaEl0oFT5UF6v1mgywg0Y31yqXj+WnXT9wXK9r9Zvt9ttq1e12gAUeUBb2NnsrX0CRUStK4cD3G9nI918vLKA2RVEPHDx0bvbUy5XPEDqOAvxEsagzoqoqx/gABv3+REZbb67du3WTyMgiLpbL85fK+7JZQMI4ikonZ8/MzRl6Jqtl9pjG2uqqbdt9y0KB6FsEQaNWQ7UgIZumCcbevXm1tPhJQjJCGKOu46IS/C1XLKFp4Pz02XnP94MkAckwwji2grDlR3I6imiYJr9xtXL08NSWg7OuF4aC8m/1n70gghCUDnb0idzMcWQarWi48m2Q256/7fleEEZx0hn0ltY7cm4SIi3zceCm+oRZMH/f64t6i5IWHRVSJEmqTuVlEYNk5jLThTQI/n4Pu4c09KYoxLbQs2rkZzCp/x0fDqjuj2V659GTx1aYmHsx37Fwxlz3PHV+Ac6QFHoZo1YgAAAAAElFTkSuQmCC',
       'https://bluebird-hd.org/browse.php?search=&incldead=0&cat=0&dsearch={{IMDB_TITLE}}%&stype=or',
       'Nothing found',
@@ -667,9 +673,9 @@ const sites = [
       'Revolution :: Login'
     ],
     rutracker: [
-      'Rutracker',
+      ' Rutracker',
       'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAB/UlEQVQ4y5WSX2hSYRjGva+LZuxiENFgMGi728W6WS0GwcYSxiDHWETQKMkrLyJIJLySw6CLGaiDoWLCbgQZDSLDCy8StByiYejx+Ac2jgdt4nYgEJ9639jZztraeuDjcD6+9/c97/s9BsM5yufzkGUZhv+Voig4VDweR61WQ6vVujhIFEUcuDfwY+EljqtcLqNer58NqlQqaDabUFUVytgiZOMkL2V4jgEOhwMEP7WYyL1eD8lkEtsPX2jFtH5++Izp6Rl4PJ5/t/EoN84O6ODu4Kx2+74Q4L1YLKYHFAoFvNt9g7e1V3gtPsad1BW2Gg6HsT2+gP33Cf5X/ZuQJAnRaFQPSCT+HKDC48slPed9r3cdExO38WR5GdlslsE0Jw1QrVbR7XZxN31VKw7urHCx1WrF5b4HuDbkxfziJ1htH5HL5RAMBqGbOunZtykEdgStBbp1ZPQeLvWvou/6FxhvVLG5pSCTySAUCkEXmHa7zdYikQi+H2QYYLFY+FYqNA7KvEhmsxnp9NcjAFny+/3w+Xxwu91wOp3odDr8ZJS+gWEZN281sPR0D2sBlUNELjQAPVmpVOLB0Jec0GBdLhcfnrzfhCh1dWn86ylPiuJaLBZ56pRIk8nELdlsNtjt9vMBhyKrgiBwiwQkR5SFRqNxMQC1lUqlzs7+b/0CJa7qHxjMpcoAAAAASUVORK5CYII=',
-      'https://rutracker.org/forum/tracker.php?nm={{IMDB_TITLE}}%20{{IMDB_YEAR}}',
+      'https://rutracker.org/forum/tracker.php?f=100,101,104,106,110,1102,1105,1120,1144,1171,119,121,1213,1214,123,1356,1359,1386,1387,1389,1390,1391,140,1408,1417,1449,1457,1460,1498,1531,1535,1576,1642,166,1669,1670,1690,172,173,175,1798,181,184,188,189,1900,193,194,1949,195,202,208,209,2097,2109,2198,2199,2201,2220,2258,2339,2343,235,236,2365,2366,2370,2391,2392,2393,2394,2395,2396,2397,2398,2399,2400,2402,2403,2404,2405,2406,2407,2408,242,2484,2491,252,265,266,273,312,313,33,352,372,387,4,404,484,489,504,507,514,521,536,539,549,572,599,606,625,636,721,743,79,80,805,809,81,812,815,816,819,820,822,84,842,85,856,877,893,9,905,91,918,920,921,93,930,935,990&o=7&nm={{IMDB_TITLE}}%20{{IMDB_YEAR}}',
       'Не найдено',
       'Введите ваше имя и пароль'
     ],
@@ -695,14 +701,14 @@ const sites = [
       'If you have forgotten your password'
     ],
     torrentday: [
-      'TorrentDay',
+      ' TorrentDay',
       'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAB1ElEQVQ4y2NgGBTg9buPoi/ffJAghD9/+caPofnb959cKu7ZX6Ud0v4SwnJO6b/sY2tvrth6JAVuANBkqZzmOUtA2Dmh/qq0fep/p/j6q9lNs5fLOKT9AfL/ptRMW5fbPGdpVHH/HqDYXym7lL9rdh6Pw3ANSBPIgKWbD6a/evtBEmSAumfu5z9//rLC1MxYsbMUpMY7veU0hgHOCQ1gF5y/fs/i8JlrriC2b2bbKWQ1b959lASJg7z94+cvdqSw+MGj5Jr5XcE54wcosOas3l0IUljStXA+sgGfv37nB4mDXPftx08uuMTV24+MQP61ja6+DeIXdy6YD1I4Z/WeQmQDLt64bw4SNwoqeQr0GjNcYtX2o4kgifT6GWtAfKAfz4L4R85ec0U2oHna6l6QeEH7vMUo/m+csnICSGLCoi11P3/9Ytfwyv0gbZ/y9+37T5IwNcfO3XBRdsv8DorOizcemKIYEF7YuxdkwK6jF/zvPX6hBvKONDC6QNEHwuGFPQdAGkHiExdtqUXR/OfvX2aDgOKXIMknL94objt0LgRkGBL+Cwpc95Sm8xv3norCiL6/f/8yPnjyUu3hs1dqIP7Hz98EQXw4fvpK9ePnr4IMgxIAADHZLOhr31AHAAAAAElFTkSuQmCC',
       'https://www.torrentday.com/t?q=tt{{IMDB_ID}}',
       'Nothing found',
       'Forgot Password'
     ],
     torrentleech: [
-      'TorrentLeech',
+      ' TorrentLeech',
       'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAYFBMVEUAAQAWGBUgIiAuMC0gOwI/QD4rUwVHSEZPUE5WWFU9bwNdX11EggRzdXJ9f3yIioeRk5BlvgSdn5ynqaZ12Qy0trOO4DrCxMHMzsul5ly164Dc39vF75rn6ebz9vL9//x/BKLsAAAAnUlEQVQY013O6w6DMAgF4KOuVqe9aFdvXeH933J0RrOMH4fkCwTAf4USQVsJZ5T5QvSOKmb7PhZkEnBMpZljn7BmcLAF4Id9GREEOiJKYa318npiTuCGKLveoLnAVLQNQF9fwHUBQ/dE2bGIrH4hgri7oSJa5axapvYEbHH2EdU0Pk7oYbSSO2MrII9R0pBqVIkowHkLzroQg/cx0QfQvhJWgfnK2QAAAABJRU5ErkJggg==',
       'https://www.torrentleech.org/torrents/browse/index/query/{{IMDB_TITLE}}/categories/1,8,9,10,11,12,13,14,15,29',
       'Please refine your search',
@@ -716,7 +722,7 @@ const sites = [
       'Login :: UHDBits'
     ],
     zooqle: [
-      'Zooqle',
+      ' Zooqle',
       'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAQAAAC1+jfqAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAHdElNRQfiBAUAISt1Jap4AAABXElEQVQoz42RP0sDQRDFVxMhqOAXsBCLKDFcbt/s3iXin4CClWDh1YpIIEIqBcFGEEEQi4CdQUGCCKJi5weIjRaKhQQV0lloE0XBGL2sm0tiGRxY5g3zm8eww9j/ggsxDarpgU4+ggnq/2v2BLCHIm5RpIzjk72UwzPy9IrNxvSyULTEfFiRypzhGVLGcDyAc3zxkAfgASXRp7MBFyd0jzxr1VVCKkp6ABVQigQZM8L0g1M84k61aN85ocyFmsOqZrXkSamQoH3to9flB0LJUQ8wOvgx3ukCL8hSmxWkSzzhCp8ajNbXjPvNuJy1UkN6crwrNkUpPsY3UOExrz3Z7vgYs9ZFkT7sLZGDK24Gw6ajd5AeYIei29YuKSiuSD+zmgvy0Pquf13cL9NCtzXiyh1xXQV1VaFy3aGKROflkczGHK277TVxJtNykbvCanKdCEeZ7GbnC+GtKdCIX+tLeV4Ph10JAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDE4LTA0LTA0VDIyOjMzOjQzKzAyOjAwEi9IogAAACV0RVh0ZGF0ZTptb2RpZnkAMjAxOC0wNC0wNFQyMjozMzo0MyswMjowMGNy8B4AAAAASUVORK5CYII=',
       'https://zooqle.com/search?q=tt{{IMDB_ID}}',
       'Sorry, '
@@ -751,13 +757,13 @@ const sites = [
   // subtitles
   {
     os: [
-      'OpenSubtitles',
+      ' OpenSubtitles',
       'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAKlBMVEUAAAAREREiIiIzMzNERERVVVV3d3eIiIiZmZmqqqrMzMzd3d3u7u7///9SrzZ+AAAARElEQVQI12NggAHeC3fBCMHAAjjuTmA6ewfIyGCYxuUgDWRsYpDmdgBJHWSQYbm7GSzVzs7gDWRw3p3AdfYqNmNw2wUAUH0dtNO4HWIAAAAASUVORK5CYII=',
       'https://www.opensubtitles.org/en/search/sublanguageid-eng/imdbid-{{IMDB_ID}}',
       '<b>No results</b> found'
     ],
     subscene: [
-      'Subscene',
+      ' Subscene',
       'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAwFBMVEUcVXQaUnAbTGgaTmobUG4bWHiHorIcXH4bW30rWnYaRl8aSmQsXntKb4QbVncZQlnD0Nfw8/UcW3wbUGzS3OIZRFylu8elt8MaR2AcWHlYeo0bTGYbS2YcVHIaRFqmvMoaSGEcWXobT2waSGIcV3gZSGMbUm8cWnsbVXXh6OwaSmMbU3IbVHMaTWkZRV0aRFstZIKWrbtpjaIcT2x4lKUcUG0cU3Lv8/a0xc8ZRl1ZfZMZSGF3laZ3l6obVnT///9+zaarAAAA2UlEQVQY0x1O2WKCMBDcHApGCSJFIw1KAIOIgd53u///Vw3u28zOBYG/cNOaZtacoScWgjAIW7PfS/l3LYjlEE7vhyO+b1eE8IpBsDHGHLHr8MPyV0+0Xt8gXov5iqeVc+DjZNPh1tsrxug9eCzhCfFuwZijegkzeYaC/E6M03pZg8d9b/kP4lrrS12ChDc72SPE6PJdCvDryOJxTuka87JUA0zpX4i7HSZKqGEAy9Nn95IgJpEQn0MGtzVa57lSYsiyGNJbe31SXj6O8QEY9fhUKiGy8RDH8T9e2htmWyQ7HAAAAABJRU5ErkJggg==',
       'https://subscene.com/subtitles/title?q={{IMDB_TITLE}}',
       function($dom) {
@@ -765,13 +771,13 @@ const sites = [
       }
     ],
     turkcealtyazi: [
-      'TurkceAltyazi',
+      ' TurkceAltyazi',
       'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABWElEQVQ4y2N48+yBzI0ZEUvv9TvtJgXfmBqy4s2TO4oMt1bX1f2qYfj7u5Y0DNJza2lRF8PdhWnTPjaK/H02zRuMX3Yb/33ToQ7nw/CrZsW/z6d6gtnPp7j9/V7N8Pf+gqRZDCDi+WTXv////wfjlwfm/H25tQ3Oh+E7C3L/fnv/Esz+/vHd33dlTJgGvL918u/7Sva/L7AY8HJp+t8nrTp/f//8/vcb0IC3qAa4gBU9nx8D9htWA5al//0JlHt5bAWmC941iv99tav/7/tafnAA4TIAJPeqx/jv840Nf79VIYUBLFRhIYzPAGS1KAYgY0IGwPBwNAAUOG+ruP++OLYSw4Bnu6b8fV/FiWnAnYUZU2ACoHh+vHPq33f3r2LBV/4+3dCAEltgA26tbapGFvwBTONfK7Hjn9VomWllRRvDhzcvRG4tzuu7BzSNFHxrcc6Edy+fSAAA26Xexh5bDHkAAAAASUVORK5CYII=',
       'https://www.turkcealtyazi.org/find.php?cat=sub&find={{IMDB_TITLE}}',
       'Bunu mu demek istediniz'
     ],
     podnapisi: [
-      'Podnapisi',
+      ' Podnapisi',
       'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQAgMAAABinRfyAAAACVBMVEUAAGcAAADu7u7pQXccAAAAAXRSTlMAQObYZgAAACxJREFUCNdjEA0NYWAQXbWUgUFy1TIHECsAyFo5gUE0NBTGWrUSk4VNFigGAN4uGb2e9Kd3AAAAAElFTkSuQmCC',
       'https://www.podnapisi.net/subtitles/search/advanced?keywords={{IMDB_TITLE}}&year={{IMDB_YEAR}}&seasons=&episodes=',
       function($dom) {
@@ -779,13 +785,13 @@ const sites = [
       }
     ],
     yifysubtitles: [
-      'YIFY Subtitles',
+      ' YIFY Subtitles',
       'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAB00lEQVQ4y2NgoBR47vlfAcVueNSUQdUUYkhab/59zmrTz/8grJo7wwYoxIIsb7Pl9x6YvExwcQBQSBKImZDViJut+XjfdMXb/yAsaOxhAhRjBklYbfrVBxNXSGibABSqAGJldANAijX1Fzx+ozv3/n8Q5lExUrPZ+icaxlctmj8DqGYSEFsCMRs2b7IwsXMZqE+6+EWt/9x/ZKxSMHc+UH4mEDsCMQe+8GRl4RE0l2ve91uuae9/EDZZ9mohUHwuEHswsXFy227/zwTC+Axh16pbnyhWsua/WOnav0D+UqPpl3YBvfPVZtvf/0j4FxCfB1mKYYJB//EAvoy5//ky5/3lkFDqMFv94S1Q2AGIA6E4GIiDzFa//yJk6uWFYYDR0he+HLH9/znjJv4VMvPu1p1z7xNQOBFkNhArALEciGbm4AYFaBBmutj03Uql9/QO5c6jO4DcAu0Jp9cqdhz9B8T/kbFK3+kXUANRAbeSARPUtmRQyOu07oyEOjsCiMOhdKj6hHN71Bu3t+KMESDm0qhYZiuUtxQUBqpALAPE8kCsCMIytdvPKBct7CKUVZhla7buZ43s+o+OxUtWXwHKpxAygBGIZaFeCIPSMBwNxD4U52YAcE7UNoyTon8AAAAASUVORK5CYII=',
       'https://www.yifysubtitles.com/search?q={{IMDB_TITLE}}',
       'no results'
     ],
     divxsubtitles: [
-      'DivX SubTitles',
+      ' DivX SubTitles',
       'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAYFBMVEUAAgAyIgotJhwyMzFSLgVsPABGSEVlZF+TZCu6bRZ/gH6lhWG4hEihlIKYl5L+iwClpaG7pY/Lp3z/pDf+q0W3ubbXvqL/vGvFyMT/1aPb29n/4r7q5uH+79n/9ej+//xrI2yiAAAAiElEQVQY012P2xLCIAwFj0UEay/RiqTQwv//pQhlUM9kArPJwwbxLyiPt3YNDaxzjq3AzkeWAvLqmsfpi16cOnFhIVK9pOih8MkEsMI5dZCSsoAtDbp4bFACQQO3CENXPRKbiTenh3sE0zA655gMMz1cNY12CU3dVzFb1fdn9vRfxwXv959rW94atBVysskhkwAAAABJRU5ErkJggg==',
       [
         'http://www.divxsubtitles.net/page_searchedsubtitles.php',
@@ -797,16 +803,28 @@ const sites = [
       ]
     ],
     planetdp: [
-      'planetdp.org',
+      ' planetdp.org',
       'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACCklEQVQ4y52TuW8TURDG7TjG2Ht442M3XouKygVCqSIKCoSiiAqloKKMqBCFK0rEX5CaghpRIBEpIfEFPjY+Yie2YycmEakokIkogpWssffNx+4KW0IcwRQ/aY73Pr15M+MA4GTHzphx5LwzOJziLH8SHGPn2LFAH5zPBx3X/f8TMKH3bgVHUyl2ON0dHkzfnUiA2jxnNISg7XfcD03ADtyfhu1L1y4U6Nc9V6nFeWjP16QmtzI+0Pa0sO8BtTyF85on9kcBfdu7hIbgYg3+FZqXQQ3uxLTn7Zc1fHHs+YC2D8O6d0uveud+EfhW4Z5QdcbNqtIK7XKgHf4Hwr7dpR2e65e5HOo8LIwal+mX+Jt6UXDZAoOS+JJKAT8rBuNUFUAVEaj5gV2xc66Jdmu/ZIRHVDXjFjURlm1UxHu2gLElNZkWumLk5SWUJWB7hg016ZaV+5yQbuh5qWvGQGWTok2Jyv75cQlGPtijvDyHQmTR0AKro/p6qeA6SmZjTFjB5iNpgcWf/uDrRohj2TDYO3l5FDzdCD9lORnQwiArlw13WS702wFz9N7IUWRncbYpx09W5dvDtKIjp4DeKmAZhZk8/uscnL5WrlM6AiMZAWUiDJkIWMrmGUvPXrgbDn0tskBJFTYJFSyhvjAvK/+8C2dr6gMkomCb0RLbVGMTb2N/XV1GMhqf9OKI707vubLIERo7AAAAAElFTkSuQmCC',
       'https://www.planetdp.org/movie/search/?title=tt{{IMDB_ID}}',
       'Sonuç bulunamadı'
     ],
     addicted: [
-      'Addic7ed',
+      ' Addic7ed',
       'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACnElEQVQ4y52SX0iTURjGv+hCcLlFbjqdbCqYi3Bb++dIZM5yJAWOOQnSiZiyRcsgHVqO0quaNHWKtdRqF1pRmRchQbgN1yS7kKBGi2KgSTaJLmbMwfDj6TtG4V3agcOB9z38nvOc96EAUDvdNE1T8Xi8KBaLHfxTo3YD8Pv9Y263G83NzfTCwoLxnwCiODg4ONbV1TXjcrnmOjs7U1arFWazGQ6HI/gX4PP5ag0Gw2etVvvd6XTeTKVSe0k9mUymV1RU0BqNBg0NDbBYLKivr4fJZIJer0+Se1Q4HFYxFzYVCgUUmkocNXTgnO1SwOv1OkKh0KnS0lKoVCqY6urQ1tYGRggEmJ+fj+XlZSHV19c3LJfLIZFI0drrh90TRXXrEHQ6HaRSKWrrTuPJs2mMeEZhtV2EWq2GuLgYWVlZWFxclFPt7e1PS0pKIFWWw3EvCuf0KoxXfTRjhxaLxTheVQXr+QvQlJVvASUSCex2O9hsNmZnZyup7u7u8WKGWHRIhsbhL2jyxKC/FiS+6cLCQvD5fAiFQnC5XOTlCSAQCGA0GiESiRAIBE5Qk5OTloKCAuTk5EBr8+Kk5wfKmJMoyWSyGI/HQ3Z2NlgsFjIyMsDhcEAEyasZCxoSjH1KpXKFKLE5+6GuNuNK7/UHS0tLomg0elhXeYwmPQJgsdKRm5u79Q81NTVfE4lE2tYYI5GImJntDOP7U09PT//Gxkba7xxsUq6BgftKlXo9k8vDgcxMHFGo0NRiWVlbW+PvKIlv34Ubn7946RwZvTtlbrEkas800vH1n7z/ivKtO+NvOi47NplF7RrAxHrP+3B4LhiaT5GI7wrgnXg4daPfnRi6PYqJR4+T23s7Aqx+iwlfzb82+eeCZz9EPlZt7/0CE7Nv5pEjH/QAAAAASUVORK5CYII=',
       'http://www.addic7ed.com/search.php?search={{IMDB_TITLE}}&Submit=Search',
       'returned zero results'
+    ],
+    subdivx: [
+      ' Subdivx ',
+      'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACMklEQVQ4jWWT224bOQyGSc1MBnn/FwqaRU6147ODxLZGEiWhdR/i64WmLnb3QhcCCZL/SVQ7ROT22r+ncyMiPaqKulZzOiIy4DpBVOg6RdQJ0Y7U645zfKRcF6S65BLfiHmFj2umtKT8OBDSniltiHlDridEHCLimOKRyV7I1yd8/kYsC6zuCGlP+XHA6oaTf2WyBd4eKb+eCbZGZUCcc1j54uvyQvm5JaQ9qoJIP5/8F16pHp9e8fmBVNbzBSpYPZDqiktY0g8yFxyqgqowjveIjDgdyfWTS3wi2JphGBFVIeVPrO6IdmhkuR51QspHgm0RJ9yNDhEhpA+Cvc+9Dum7e07nPTGvCLalH2RWwOE6IeUPztPMiW2JeUUs74S0b9DUCVY3hPpAqP+0jeIQGZqMcofrBJ++k+oSn56J5Y1Utk1edUIqW2J5w6fnuek7rhNU7hDp52GOYNu2pD5gdfPHH0JIe2J5v8GwuuM8LUj5o5lGHJ0b6Qe5wTid9/TdffNBtAPB3gnpA5GZMNeaUz6irhErIkQ7YHVHyp9N7mEYCbbmEp/I9XPWfmQc728y/pG1H4RLWJLqCqsHRKVdkMoanx/w6ZVS/b/M0wb2qDao5eeWr8sLVr5wziEqA8HWlF/PeHtksgUn/4rVzc3/VnfEssDnb+TrE5O9MMXj3yzkeiLmDVPa3Pw/pSU+rol5xSW+keqScl1wjo/U645ojRtpkZSZ7eHmf3WCqv4n2v+P/m99ZWUF+mNjOAAAAABJRU5ErkJggg==',
+      'https://www.subdivx.com/index.php?accion=5&masdesc=&buscar={{IMDB_TITLE}}%20{{IMDB_YEAR}}&oxfecha=2',
+      'No encontramos resultados con el buscador de subdivx. Probemos con el de Google.'
+    ],
+    argenteam: [
+      ' aRGENTeaM ',
+      'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAE/0lEQVRYhe2UW0wUVxzGp22aJh1rVcBVlp3dZXcWS9eNWmkftAUvXbU8WCON0sgtNdrYikapVbyUWFbA8QJGEy+gsrBXll1YlEirtdAqQr12WhNj1dRUY2mxtj3AsrNzvj4sWhESl5emD3zJl3Myycz3ze8/ZxhmWMMa1v9RBQUFz/rWL86+sWq0iDJOhFcvooEXUcuLcE8Q4TaJsidJpC6TKD1c3UkidSaKknemKHlni5LXLEoN80X5yw8qepvXvTKkAtY8M/v1uuQusnEkbmyMwc2yWHRWcAjatIBHD9QbgOMJQOOEsI8bgGMJgD8BqE0AdfKQbYmQPdNA/fNATyzuDNVOf7+7IVMZUYEmIY+9Zv3kty+ELPJR+hySNf8tkjl3EklP0ZDMGUqybOZYkjtrFNmYOooIaS+TQzkxHUeWxlD3ynH4uVQN+HhQpw7UpgG1qYHqOFDnBIQ8U9MjpnClycoKQh5rzshgzWYzazKZWIVCwTKMgmUYhlUwDGtiGNasYNg1a3LfiXppRGDLjBF4IHBAjR5w6EHtOsChB+zxoK5X0eubHnmBoWjnhhW+5hWxgKACPaQFdYXDH9mmBq1Nao14BEPR1fMt4y8WL2jFthhI2znI1TrgsQIPScgOg2vID7/XJLD3rBlhN+X1WWDvNVnDvmJlb7f4sn8RktG7NQbBHRyomwd16PoTcBgQOvGuLeLgLkvsFFL6RlF37XIS9KSRkP89IjcuIdKJpUQ6uZqEvlpL5OZPSahlE3ngye7pLOLQVaKEdEALOP+df5iADtSmJ3+654yJKLwxPTo5uI17ECgZD7lKCVqr6bMa1MOBelSgNXEIORSQHEqgTg00GEBredAavv+b91l2JtK7B2JffGq4YGLYk0ui/4KgQqgiPnzefQZQL99vRV0izgiT7/tXjnR9vmC0VJw2Bpc3K0Fd/EACdg2kY6mnrzfOeyESAM/8mKvokndyoE49aF/o44ZXj1D9pMCpyoLXGYZhFCOfJ7tTR6HDEhe+58n527WQ3Ka5EeG/9HF0yt+FcQFpjzoc6BuEgFeD4KnFYBiGKc1fXXltvRrYyQH7NIBT3+/Lh10L6p6IUF1KWkQF2pdF+wPb4iCXa4G6QdD7eMCjAjm7ocjtdj/XunlOvWQZB6mYg3xQO7BAtQqyf3Z3T/uu5KeGn82MUt5aN641WKKCbNOB1vGD4I9HsD4J992zJ37vK3vt5va5Us9nUegt4SBXxQ/AD1scumrmfXen6fCiu/7ShXftWxb+6ilc2Fm/4+0BBc7kRM3v2BQLeY8atIYfnECdHj0uE/4o1jTft8S2/F6kR3exEtIe9RPo9Y/mH6iciK5KM3qqZqL76JsIVKcgYJ91e0CBq6vGbu8pDP9K0WAA6nnAz4f3fh7w64F6HVCnBXwawMsBPhXgUwMeDnCqALsKcKiAGg5wc4BLBbiVgHMs4FQAtmigajxQrb41oMAPuQoiCyrSUcqRO3s5cn23ll4uVtNzW+NIa6GeXBAmkwu7p5G2XcnkXKmZnN+fRi4dySTtFTmkrTyHtB3MJm37s8Prw2uHwvv2wznk24PZpLVyLbnpyDpNqqbkDChwcfmYxF6LyviTRWW8UjDaKB7Nyv1mb0auNWOE0fqhzujNm2r05puNzvxUozV/kdFryTV6ywqMzjJLRLYKBUZrebnxnD1fEdGJGNawhvVf6R8Sn+8pLq1sXwAAAABJRU5ErkJggg==',
+      'http://www.argenteam.net/search/{{IMDB_TITLE}}%20{{IMDB_YEAR}}',
+      'No se encontraron coincidencias'
     ]
   }
 ];
