@@ -1,37 +1,9 @@
-# 🎥 IMDb: Link 'em all!
+# Fork of IMDb: Link 'em all! by buzz
 
-A *customizable* user script adding all kinds of links to the IMDb movie info page.
+## Principal changes from original script:
 
-* Three categories: General, Trackers, Subtitles
-* Fetches results and shows availability (either ![Cross](https://foswiki.org/pub/System/FamFamFamSilkIcons/cross.png) or ![Tick](https://foswiki.org/pub/System/FamFamFamSilkIcons/tick.png))
-
-<!-- -->
-
-- For **Chrome** and **Firefox**
-- Supports TamperMonkey, GreaseMonkey, ViolentMonkey, ...
-- IMDb **modern** and **reference layout** supported
-
-### 🔗 Links
-
-- [GitHub](https://github.com/buzz/imdb-link-em-all)
-- [Greasy Fork](https://greasyfork.org/en/scripts/17154-imdb-link-em-all)
-
-## 🔧 Configuration
-----------------
-
-![Screenshot](https://github.com/buzz/imdb-link-em-all/raw/master/screenshot.png)
-
-✨ Contributions
-----------------
-
-* Add a new site? *No problem!*
-* Spotted an error? *Fix it!*
-
-[Read here how to do it.](https://github.com/buzz/imdb-link-em-all/blob/master/ADDING-SITES.md)
-
-*Thank you for your help!* 👍
-
-👏 Credits
-----------
-
-Thanks to [famfamfam.com](http://www.famfamfam.com/lab/icons/silk/) for icons used in this user script (licensed under [CC BY 2.5](https://creativecommons.org/licenses/by/2.5/)).
+* Splitted ThePirateBay tracker into two to differentiate HD Movies and TV Shows results. Now it only searches for HD results.
+* Changed Rarbg site to rarbgweb.org and added parameters to only search for TV Shows and Movies, although this wasn't exactly necessary I added it just in case.
+* Changed RuTracker to only search in TV Shows and Movies categories and sort results by size (asc. to desc.) by default.
+* Added two subtitles websites for Spanish language (Subdivx and Argenteam). Subdivx is set to sort results by last uploaded (date).
+* Added some spaces before every title for aestethics purposes (I just didn't like how it looked).
