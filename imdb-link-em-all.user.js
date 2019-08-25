@@ -1223,7 +1223,7 @@ function parse_info() {
       title_selector = 'h1';
     }
     // extract movie infos
-    imdb_title = $(title_selector).text().trim();
+    imdb_title = $(title_selector).text().trim().replace(/è|é|ê|ë/gi, "e").replace(/í|ì|î|ï/gi, "i").toLowerCase();
     imdb_id = m[1];
     m = /^(.+)\s+\((\d+)\)/.exec(imdb_title);
     if (m) {
