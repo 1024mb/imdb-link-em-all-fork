@@ -4,7 +4,7 @@
 // @description    Adds all kinds of links to IMDb, customizable!
 // @author         buzz
 // @require        https://code.jquery.com/jquery-2.2.0.min.js
-// @version        1.0.10
+// @version        1.0.10-1
 // @license        GPLv2
 // @match          *://*.imdb.com/title/tt*/*
 // @grant          GM.getValue
@@ -258,7 +258,7 @@ const sites = [
     bluraycom: [
       ' Blu-ray.com',
       'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAYFBMVEVGmt1IneBKoOJMouNNpORPpeVQqOdRqulSrOpfqeNUrOpVruxXse9ZtfFdufR2uux+wfCFwe2Cx/Sby++czfCkz/Cg0/Wo1POr2Pes2vi73fXK5fnV6vno9P30+v3///8V2ZdfAAAAf0lEQVQYGQXBS07DQABAMWeYQiskPve/IYuWBUhAOnnY2wuIpKMJz+j4vS81MR/BZb+WQTjWwemchmC/Xe88VQNgbfypGTi9b8P+VU3CQKsy5GD93G3n1zQS9tvHNxcZAiykmXXi4TKfOTAFpzd0i7kUWL+fO7ZzpRJhVCoR/AMNol6wavG87wAAAABJRU5ErkJggg==',
-      'http://www.blu-ray.com/movies/search.php?keyword={{IMDB_TITLE}}&yearfrom={{IMDB_YEAR}}&yearto={{IMDB_YEAR}}&submit=Search&action=search',
+      'https://www.blu-ray.com/products/search.php?title={{IMDB_TITLE}}&year_min={{IMDB_YEAR}}&year_maxrange=20145&year_max=20145&year_exact=0&action=search&c=20&searchsubmit=Search&sortby=productionyeardesc',
       'Sorry, your search didn\'t return any results.'
     ],
     myduckisdead: [
