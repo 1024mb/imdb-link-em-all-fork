@@ -259,7 +259,7 @@ const sites = [
       ' Blu-ray.com',
       'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAYFBMVEVGmt1IneBKoOJMouNNpORPpeVQqOdRqulSrOpfqeNUrOpVruxXse9ZtfFdufR2uux+wfCFwe2Cx/Sby++czfCkz/Cg0/Wo1POr2Pes2vi73fXK5fnV6vno9P30+v3///8V2ZdfAAAAf0lEQVQYGQXBS07DQABAMWeYQiskPve/IYuWBUhAOnnY2wuIpKMJz+j4vS81MR/BZb+WQTjWwemchmC/Xe88VQNgbfypGTi9b8P+VU3CQKsy5GD93G3n1zQS9tvHNxcZAiykmXXi4TKfOTAFpzd0i7kUWL+fO7ZzpRJhVCoR/AMNol6wavG87wAAAABJRU5ErkJggg==',
       'https://www.blu-ray.com/products/search.php?title={{IMDB_TITLE}}&year_min={{IMDB_YEAR}}&year_maxrange=20145&year_max=20145&year_exact=0&action=search&c=20&searchsubmit=Search&sortby=productionyeardesc',
-      'Sorry, your search didn\'t return any results.'
+      'Search results (0 matches)'
     ],
     myduckisdead: [
       'My Duck Is Dead',
