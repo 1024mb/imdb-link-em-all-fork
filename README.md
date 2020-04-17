@@ -28,7 +28,9 @@
         - Fixed TheTVDB.
         - Fixed MovieDB.me
         - Fixed Subscene
+        - Fixed Searx [Replaced with OccuSearch instance]
     * **Updated:**
+        - Updated Youtube to append the year to the search to limit results.
         - Updated TMDB to also limit the search with year.
         - Updated "Cinema of the world".
         - Updated Cat3Plus to Cat3Movie.
