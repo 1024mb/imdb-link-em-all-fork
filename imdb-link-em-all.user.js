@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name           IMDb: Link 'em all! (Fork)
-// @namespace      https://github.com/1024mb/imdb-link-em-all
+// @namespace      https://github.com/1024mb/imdb-link-em-all-fork
 // @description    Adds all kinds of links to IMDb, customizable!
 // @author         buzz & 1024mb
 // @require        https://code.jquery.com/jquery-2.2.0.min.js
@@ -18,6 +18,8 @@
 // @resource       style https://raw.githubusercontent.com/1024mb/imdb-link-em-all/master/style.css
 // @connect        *
 // @noframes
+// @downloadURL    https://github.com/1024mb/imdb-link-em-all-fork/raw/master/imdb-link-em-all.user.js
+// @homepageURL    https://github.com/1024mb/imdb-link-em-all-fork
 // ==/UserScript==
 
 // Test cases for different layouts:
