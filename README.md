@@ -36,3 +36,7 @@
         - Updated Cat3Plus to Cat3Movie.
         - Updated Demonoid to new domain.
         - Updated Yggtorrent.
+- 1.0.10-3
+    - Added ETTV [Can't sort results, code is there but is not used]
+    - Added TorrentGalaxy
+    - Added HEVCBAY [Let's just say search is not one of its best suits]
