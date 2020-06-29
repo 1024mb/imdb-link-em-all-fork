@@ -4,7 +4,7 @@
 // @description    Adds all kinds of links to IMDb, customizable!
 // @author         buzz & 1024mb
 // @require        https://code.jquery.com/jquery-2.2.0.min.js
-// @version        1.0.10-3
+// @version        1.0.10-4
 // @license        GPLv2
 // @match          *://*.imdb.com/title/tt*/*
 // @grant          GM.getValue
@@ -420,14 +420,14 @@ const sites = [
     pb: [
       ' TPB [Películas] ',
       'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAMFBMVEUBBAAbHBonKSc+QD1QUk9cXltvcW6ChIGPkY6ho6CusK2+wL3P0c7a3Nnr7er9//yio7pYAAAAeUlEQVQI12P4DwUM/68YA4ElkLGAAQhYwAxGBgZWEEMn6upyMMMuUOk4SGoCSA0zmCHAxMD0n+FYA7MjqwFQZEPFrJUzV61rZSgwjjj///V0YYZtlomMhsLBSgz/GE0iSpQToxn+ib3///91wHmG//tAdl+5zwBzBgA4/kVfY3CNqAAAAABJRU5ErkJggg==',
-      'https://thepiratebay.org/search/tt{{IMDB_ID}}/0/5/207',
+      'https://thepiratebay.org/search.php?q=tt{{IMDB_ID}}&cat=207',
       'No hits. Try adding an asterisk in you search phrase.',
 	  'No results returned'
     ],
     pb2: [
       ' TPB [Series] ',
       'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAMFBMVEUBBAAbHBonKSc+QD1QUk9cXltvcW6ChIGPkY6ho6CusK2+wL3P0c7a3Nnr7er9//yio7pYAAAAeUlEQVQI12P4DwUM/68YA4ElkLGAAQhYwAxGBgZWEEMn6upyMMMuUOk4SGoCSA0zmCHAxMD0n+FYA7MjqwFQZEPFrJUzV61rZSgwjjj///V0YYZtlomMhsLBSgz/GE0iSpQToxn+ib3///91wHmG//tAdl+5zwBzBgA4/kVfY3CNqAAAAABJRU5ErkJggg==',
-      'https://thepiratebay.org/search/tt{{IMDB_ID}}/0/5/205',
+      'https://thepiratebay.org/search.php?q=tt{{IMDB_ID}}&cat=208',
       'No hits. Try adding an asterisk in you search phrase.',
 	  'No results returned'
     ],
@@ -770,7 +770,7 @@ const sites = [
     subscene: [
       ' Subscene',
       'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAwFBMVEUcVXQaUnAbTGgaTmobUG4bWHiHorIcXH4bW30rWnYaRl8aSmQsXntKb4QbVncZQlnD0Nfw8/UcW3wbUGzS3OIZRFylu8elt8MaR2AcWHlYeo0bTGYbS2YcVHIaRFqmvMoaSGEcWXobT2waSGIcV3gZSGMbUm8cWnsbVXXh6OwaSmMbU3IbVHMaTWkZRV0aRFstZIKWrbtpjaIcT2x4lKUcUG0cU3Lv8/a0xc8ZRl1ZfZMZSGF3laZ3l6obVnT///9+zaarAAAA2UlEQVQY0x1O2WKCMBDcHApGCSJFIw1KAIOIgd53u///Vw3u28zOBYG/cNOaZtacoScWgjAIW7PfS/l3LYjlEE7vhyO+b1eE8IpBsDHGHLHr8MPyV0+0Xt8gXov5iqeVc+DjZNPh1tsrxug9eCzhCfFuwZijegkzeYaC/E6M03pZg8d9b/kP4lrrS12ChDc72SPE6PJdCvDryOJxTuka87JUA0zpX4i7HSZKqGEAy9Nn95IgJpEQn0MGtzVa57lSYsiyGNJbe31SXj6O8QEY9fhUKiGy8RDH8T9e2htmWyQ7HAAAAABJRU5ErkJggg==',
-      'https://subscene.com/subtitles/searchbytitle?query={{IMDB_TITLE}}',
+      'https://subscene.com/subtitles/searchbytitle?query={{IMDB_TITLE}}%20{{IMDB_YEAR}}',
 	  'No results found'
     ],
     turkcealtyazi: [
@@ -1201,7 +1201,7 @@ function updateExternalLinks() {
 // parse movie info before calling init()
 function parse_info() {
   // parse imdb number/layout
-  let m = /^\/title\/tt([0-9]{7})\/([a-z]*)/.exec(window.location.pathname);
+  let m = /^\/title\/tt([0-9]{7,8})\/([a-z]*)/.exec(window.location.pathname);
   if (m) {
     // detect layout
     let title_selector;
